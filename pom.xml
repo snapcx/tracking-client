@@ -11,7 +11,7 @@
   	Before using this client, you can check your api key using API explorer, running at https://snapcx.io/shippingTrackingAPI  
   </description>
   <url>https://github.com/ajainy/snapcx-tracking-sdk</url>
-  <version>1.0.1</version>
+  <version>1.0.2-SNAPSHOT</version>
    <organization>
   	<name>JFrameworks.com, LLC</name>
   	<url>http://www.jframeworks.com</url>
@@ -37,7 +37,7 @@
 	<url>https://github.com/ajainy/snapcx-tracking-sdk</url>
 	<connection>scm:git:git://github.com/ajainy/snapcx-tracking-sdk.git</connection>
 	<developerConnection>scm:git:git@github.com:ajainy/snapcx-tracking-sdk.git</developerConnection>
-	<tag>tracking-client-1.0.1</tag>
+	<tag>HEAD</tag>
   </scm>
   
   <issueManagement>
