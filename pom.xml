@@ -208,8 +208,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>2.5.1</version>
         <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
       
@@ -250,6 +250,11 @@
           </goals>
         </execution>
       </executions>
+      <configuration>
+        <additionalparam>-Xdoclint:none</additionalparam>
+        <failOnError>false</failOnError>
+      </configuration>
+      
     </plugin>
       
 	<plugin>
