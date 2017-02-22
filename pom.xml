@@ -281,6 +281,10 @@
           </goals>
         </execution>
       </executions>
+      <configuration>
+      	<!-- keyname>01F744BB8D6CDBF1</keyname -->
+      	<passphrase>abc</passphrase>
+      </configuration>
     </plugin>
 	   
 
