@@ -1,0 +1,6 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - gpg --batch --gen-key gen-key-script && mvn deploy

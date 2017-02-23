@@ -281,10 +281,10 @@
           </goals>
         </execution>
       </executions>
-      <configuration>
-      	<!-- keyname>01F744BB8D6CDBF1</keyname -->
+      <!-- configuration>
+      	<keyname>01F744BB8D6CDBF1</keyname>
       	<passphrase>abc</passphrase>
-      </configuration>
+      </configuration -->
     </plugin>
 	   
 
@@ -294,7 +294,7 @@
   <distributionManagement>
   	<snapshotRepository>
     	<id>ossrh</id>
-    	<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    	<url>https://oss.sonatype.org/content/repositories/snapshots</url>    	
   	</snapshotRepository>
   	<repository>
    	 	<id>ossrh</id>
