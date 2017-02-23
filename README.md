@@ -54,6 +54,14 @@ Then manually install the following JARs:
 
 ## Getting Started
 
+### cURL Examples
+```curl
+curl -X GET -H "user_key: 817d94a03dd15c0d5782686aae84974c" "https://api.snapcx.io/tracking/v1/getTrackingDetails?carrier=FEDEX&trackId=074347350384592"
+
+curl -X GET -H "user_key: 817d94a03dd15c0d5782686aae84974c" "https://api.snapcx.io/tracking/v1/getTrackingDetails?carrier=UPS&trackId=1Z884AR10211041421"
+
+```
+
 Please follow the [installation](#installation) instruction and execute the following Java code:
 
 ```java
@@ -108,8 +116,11 @@ Class | Method | HTTP request | Description
 
 ## Documentation for Authorization
 
-All endpoints do not require authorization.
-Authentication schemes defined for the API:
+All endpoints require *API KEY* in request *header*. You can get your api key from [developer portal of snapcx.io](https://developer.snapcx.io). Name of header key is *user_key*
+Example
+```
+user_key:d111120ba53b07fxxxx05bc8c754a33f
+```
 
 ## Recommendation
 
@@ -126,3 +137,12 @@ https://snapcx.io/pricing
 ### Contact us
 
 https://snapcx.io/contactus
+
+### API Status
+
+https://status.snapcx.io
+
+### Troubleshooting and API Explorer
+
+(You can use your API Key to test API end point)
+https://snapcx.io/shippingTrackingAPI
