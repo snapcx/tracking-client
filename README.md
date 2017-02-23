@@ -26,9 +26,9 @@ Add this dependency to your project's POM:
 
 ```xml
 <dependency>
-    <groupId>io.snapcx.tracking.client</groupId>
-    <artifactId>snapcx-tracking-client</artifactId>
-    <version>1.0.0</version>
+    <groupId>io.snapcx</groupId>
+    <artifactId>tracking-client</artifactId>
+    <version>1.0.1</version>
     <scope>compile</scope>
 </dependency>
 ```
@@ -38,7 +38,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "io.snapcx.tracking.client:snapcx-tracking-client:1.0.0"
+compile "io.snapcx:tracking-client:1.0.1"
 ```
 
 ### Others
@@ -49,7 +49,7 @@ At first generate the JAR by executing:
 
 Then manually install the following JARs:
 
-* target/snapcx-tracking-client-1.0.0.jar
+* target/tracking-client-1.0.1.jar
 * target/lib/*.jar
 
 ## Getting Started
