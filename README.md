@@ -1,4 +1,4 @@
-# snapcx-tracking-client
+# snapCX.io Shipping Tracking *Java* Client
 
 ## Requirements
 
@@ -115,7 +115,14 @@ Authentication schemes defined for the API:
 
 It's recommended to create an instance of `ApiClient` per thread in a multithreaded environment to avoid any potential issue.
 
-## Author
+## Website
 
-support@snapcx.io
+https://snapcx.io
 
+### Pricing & Subscription plans
+
+https://snapcx.io/pricing
+
+### Contact us
+
+https://snapcx.io/contactus
